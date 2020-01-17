@@ -1,0 +1,223 @@
+* {
+	color: rgb(9, 9, 201);
+	font-family: serif;
+}
+.heading {
+	font-family: "Volkhov", serif;
+}
+.thick-border {
+	border: 4px solid rgb(9, 9, 201);
+	border-radius: 20px;
+}
+.thick-border-b {
+	border-bottom: 4px solid rgb(9, 9, 201);
+}
+.thick-border-r {
+	border-right: 4px solid rgb(9, 9, 201);
+}
+.slim-border-b {
+	border-bottom: 2px solid rgb(9, 9, 201);
+}
+
+.slim-border-t {
+	border-top: 2px solid rgb(9, 9, 201);
+}
+.slim-border-l {
+	border-left: 2px solid rgb(9, 9, 201);
+}
+.slim-border-r {
+	border-right: 2px solid rgb(9, 9, 201);
+}
+main p {
+	padding: 15px;
+}
+footer ul li {
+	list-style: none;
+	font-size: 12px;
+	padding-left: 12px;
+}
+.group {
+	position: relative;
+}
+.check {
+	position: absolute;
+	left: 80px;
+	top: 6px;
+}
+.checkr {
+	position: absolute;
+	left: 124px;
+	top: 6px;
+}
+.pl {
+	padding-left: 43px;
+}
+.p {
+	padding: 9% 7%;
+}
+.ptb {
+	padding: 8.29% 11%;
+}
+.ul-padding li {
+	padding: 2px 0px;
+}
+.empt {
+	padding: 66% 0%;
+}
+.dump-fees-width {
+	width: 14.3%;
+}
+.inputbox-padding {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.inputbox-padding2 {
+	padding-top: 9px;
+	padding-bottom: 30px;
+}
+
+.inputbox-padding2 input {
+	position: absolute;
+	left: 60px;
+}
+.h {
+	height: 150px;
+}
+.em {
+	font-style: italic;
+}
+.input {
+	border: none;
+	border-bottom: 2px solid rgb(9, 9, 201);
+	outline: none;
+}
+.i-days {
+	width: 15%;
+}
+.i-submitted {
+	width: 50%;
+}
+.i-date {
+	width: 28%;
+}
+.i-signature {
+	width: 86%;
+}
+.w {
+	width: 75%;
+}
+.text-area {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.name {
+	border-bottom: none;
+	border-right: 2px solid rgb(9, 9, 201);
+}
+.phone {
+	border-bottom: none;
+	border-right: 2px solid rgb(9, 9, 201);
+}
+.phone .row {
+	border: none;
+}
+.stcol {
+	border-right: 2px solid rgb(9, 9, 201);
+}
+.street {
+	border-bottom: 2px solid rgb(9, 9, 201);
+}
+.city {
+	border-bottom: none;
+}
+.referance {
+	border-right: 4px solid rgb(9, 9, 201);
+	border-top: none;
+}
+@media (max-width: 1200px) {
+	.pl {
+		padding-left: 20px;
+	}
+	.empt {
+		padding: 88% 0%;
+	}
+}
+
+@media (max-width: 992px) {
+	.empt {
+		padding: 30% 0%;
+	}
+	header .slim-border-r {
+		/* border: none; */
+	}
+
+	.phone .inputbox-padding {
+		padding-bottom: 0px;
+	}
+	.w {
+		width: 91%;
+	}
+	.text-area {
+		width: 177%;
+	}
+	.name {
+		border-bottom: 2px solid rgb(9, 9, 201);
+		border-right: none;
+	}
+	.phone {
+		border-bottom: 2px solid rgb(9, 9, 201);
+		border-right: none;
+	}
+	.stcol {
+		border-right: none;
+	}
+	.street {
+		border-bottom: 2px solid rgb(9, 9, 201);
+	}
+	.city {
+		border-bottom: 2px solid rgb(9, 9, 201);
+	}
+	.referance {
+		border-right: none;
+		border-top: 4px solid rgb(9, 9, 201);
+	}
+	.pl {
+		padding-left: 65px;
+	}
+	.ptb {
+		padding: 1% 10%;
+	}
+	.slim-border-r-md {
+		border-top: 2px solid rgb(9, 9, 201);
+		padding: 20px;
+	}
+	.pl {
+		padding: 0px 16px !important;
+	}
+	.work-instruction {
+		border-right: none;
+	}
+	.check {
+		left: 124px;
+	}
+	.ptbx {
+		margin-left: 10%;
+	}
+}
+
+/*smll devices*/
+@media (max-width: 768px) {
+	.inputbox-padding2 input {
+		position: unset;
+		left: 0px;
+	}
+	.w {
+		width: 100%;
+	}
+	.bdr {
+		border-top: 1px solid #dee2e6;
+}
+
+@media (max-width: 567px) {
+}
